@@ -1,0 +1,42 @@
+.wrapper {
+
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 200px auto auto;
+  max-width: 400px;
+  background: bisque;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  align-items: center;
+  gap: 20px;
+  border: solid black;
+}
+
+.text {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  font-weight: 700;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  gap: 20px;
+}
+
+.btn {
+  background: #2a932a;
+  color: white;
+  padding: 10px;
+  border: solid 1px black;
+  border-radius: 2px;
+}
+
+.btn:hover {
+  background: #52f151;
+  color: #000000;
+}
